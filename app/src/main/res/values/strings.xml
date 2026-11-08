@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chaman Browser</string>
+    <string name="url_hint">Search or type URL</string>
+
+    <!-- Toolbar -->
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    <string name="home">Home</string>
+    <string name="reload">Reload</string>
+    <string name="menu">Menu</string>
+    <string name="ad_blocker">Ad blocker</string>
+    <string name="ads_blocked_on_page">%1$d ads and trackers blocked on this page</string>
+
+    <!-- Menu and dialogs -->
+    <string name="tabs">Tabs</string>
+    <string name="new_tab">New tab</string>
+    <string name="close">Close</string>
+    <string name="close_tab">Close tab</string>
+    <string name="add_bookmark">Add bookmark</string>
+    <string name="remove_bookmark">Remove bookmark</string>
+    <string name="bookmark_added">Bookmark added</string>
+    <string name="bookmark_removed">Bookmark removed</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="bookmarks_title">Bookmarks (long-press to delete)</string>
+    <string name="history">History</string>
+    <string name="history_title">History (long-press to delete)</string>
+    <string name="downloads">Downloads</string>
+    <string name="share">Share</string>
+    <string name="clear_browsing_data">Clear browsing data</string>
+    <string name="clear_data_confirm">Delete cookies, cache, site data and history?</string>
+    <string name="clear_data_done">Browsing data cleared</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="settings">Settings</string>
+    <string name="clear_all">Clear all</string>
+    <string name="nothing_here">Nothing here yet</string>
+    <string name="open_new_tab">Open in new tab</string>
+    <string name="open_image_new_tab">Open image in new tab</string>
+    <string name="copy_link">Copy link</string>
+    <string name="link_copied">Copied</string>
+    <string name="no_app_for_link">No app found to open this link</string>
+    <string name="downloading">Downloading %1$s</string>
+    <string name="download_unsupported">This kind of download is not supported yet</string>
+    <string name="grant_storage_retry">Allow storage access, then try the download again</string>
+
+    <!-- Settings -->
+    <string name="cat_adblock">Ad blocker</string>
+    <string name="adblock_title">Built-in ad and tracker blocker</string>
+    <string name="adblock_summary_default">Always on</string>
+    <string name="adblock_summary">Always on. %1$d domains in the block list.</string>
+
+    <string name="cat_privacy">Privacy</string>
+    <string name="private_mode_title">Private mode</string>
+    <string name="private_mode_summary">Do not save history, skip the cache, hide the app in recent apps, and wipe cookies and site data on exit</string>
+    <string name="block_cookies_title">Block all cookies</string>
+    <string name="block_cookies_summary">Many sites need cookies to keep you signed in</string>
+    <string name="block_3p_cookies_title">Block third-party cookies</string>
+    <string name="block_3p_cookies_summary">Stops cross-site tracking cookies</string>
+    <string name="safe_browsing_title">Safe Browsing</string>
+    <string name="safe_browsing_summary">Warn about known phishing and malware pages</string>
+
+    <string name="cat_security">Security</string>
+    <string name="https_only_title">HTTPS-only mode</string>
+    <string name="https_only_summary">Upgrade http:// pages to https:// and warn when a site has no secure version</string>
+
+    <string name="cat_content">Content</string>
+    <string name="block_js_title">Block JavaScript</string>
+    <string name="block_js_summary">Faster and safer, but many sites will break</string>
+    <string name="block_images_title">Block images</string>
+    <string name="block_images_summary">Saves data</string>
+    <string name="allow_popups_title">Allow pop-up windows</string>
+    <string name="allow_popups_summary">Pop-ups are blocked unless this is on</string>
+
+    <string name="cat_appearance">Appearance</string>
+    <string name="dark_mode_title">Dark mode</string>
+    <string name="dark_mode_summary">Dark browser interface and darkened web pages</string>
+    <string name="desktop_site_title">Request desktop site</string>
+    <string name="desktop_site_summary">Identify as a desktop browser</string>
+
+    <string name="cat_general">General</string>
+    <string name="search_engine_title">Search engine</string>
+    <string name="home_page_title">Home page</string>
+    <string name="home_page_summary">Leave empty to use the Chaman start page</string>
+
+    <string name="cat_about">About</string>
+    <string name="version_title">Version</string>
+</resources>

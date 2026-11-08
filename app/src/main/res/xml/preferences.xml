@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/cat_adblock">
+        <Preference
+            app:key="pref_adblock_info"
+            app:selectable="false"
+            app:summary="@string/adblock_summary_default"
+            app:title="@string/adblock_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/cat_privacy">
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            app:key="pref_private_mode"
+            app:summary="@string/private_mode_summary"
+            app:title="@string/private_mode_title" />
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            app:key="pref_block_cookies"
+            app:summary="@string/block_cookies_summary"
+            app:title="@string/block_cookies_title" />
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            app:key="pref_block_third_party_cookies"
+            app:summary="@string/block_3p_cookies_summary"
+            app:title="@string/block_3p_cookies_title" />
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            app:key="pref_safe_browsing"
+            app:summary="@string/safe_browsing_summary"
+            app:title="@string/safe_browsing_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/cat_security">
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            app:key="pref_https_only"
+            app:summary="@string/https_only_summary"
+            app:title="@string/https_only_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/cat_content">
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            app:key="pref_block_js"
+            app:summary="@string/block_js_summary"
+            app:title="@string/block_js_title" />
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            app:key="pref_block_images"
+            app:summary="@string/block_images_summary"
+            app:title="@string/block_images_title" />
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            app:key="pref_allow_popups"
+            app:summary="@string/allow_popups_summary"
+            app:title="@string/allow_popups_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/cat_appearance">
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            app:key="pref_dark_mode"
+            app:summary="@string/dark_mode_summary"
+            app:title="@string/dark_mode_title" />
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            app:key="pref_desktop_site"
+            app:summary="@string/desktop_site_summary"
+            app:title="@string/desktop_site_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/cat_general">
+        <ListPreference
+            android:defaultValue="duckduckgo"
+            app:entries="@array/search_engine_entries"
+            app:entryValues="@array/search_engine_values"
+            app:key="pref_search_engine"
+            app:title="@string/search_engine_title"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="pref_home_page"
+            app:summary="@string/home_page_summary"
+            app:title="@string/home_page_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/cat_about">
+        <Preference
+            app:key="pref_version"
+            app:selectable="false"
+            app:title="@string/version_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

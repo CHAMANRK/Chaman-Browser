@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chaman</title>
+<style>
+  :root { color-scheme: light dark; --bg:#f6faf6; --fg:#1b2a1b; --muted:#5c6f5c; --card:#ffffff; --accent:#2e7d32; --line:#cfe0cf; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#101510; --fg:#e6efe6; --muted:#93a593; --card:#1a221a; --accent:#66bb6a; --line:#2b382b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center;
+         padding:24px; font-family: sans-serif; background:var(--bg); color:var(--fg); }
+  h1 { font-size:40px; margin:0 0 4px; letter-spacing:.5px; }
+  h1 span { color:var(--accent); }
+  p.tag { margin:0 0 28px; color:var(--muted); }
+  form { width:100%; max-width:480px; display:flex; gap:8px; }
+  input[type=search] { flex:1; min-width:0; padding:14px 18px; font-size:16px; border-radius:28px;
+         border:1px solid var(--line); background:var(--card); color:var(--fg); outline:none; }
+  input[type=search]:focus { border-color:var(--accent); }
+  button { padding:0 22px; font-size:16px; border:0; border-radius:28px; background:var(--accent); color:#fff; }
+  p.foot { margin-top:36px; font-size:13px; color:var(--muted); text-align:center; }
+</style>
+</head>
+<body>
+  <h1><span>Chaman</span> Browser</h1>
+  <p class="tag">Fast. Private. Ad-free.</p>
+  <form action="chaman://search" method="get">
+    <input type="search" name="q" placeholder="Search the web" autocomplete="off" autocapitalize="off">
+    <button type="submit">Go</button>
+  </form>
+  <p class="foot">Ads and trackers are blocked automatically.</p>
+</body>
+</html>
